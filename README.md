@@ -55,7 +55,9 @@ This mechanism allows the LLM to understand your intent, dynamically generate lo
 > - ✅ Final Answer
 
 Here’s an actual screenshot showing the thought process of Gemini through LangChain:
+
 ![Ques1](https://github.com/user-attachments/assets/09c9c3ba-799f-486b-a7ba-bc1dc6395870)
+
 ![Ques2](https://github.com/user-attachments/assets/760d2c25-0da2-4c85-89cf-00c5ec60a744)
 
 ---
@@ -65,6 +67,7 @@ Here’s an actual screenshot showing the thought process of Gemini through Lang
 The user sees a simple Streamlit UI where they can upload a CSV and ask questions interactively:
 
 ![Ques1](https://github.com/user-attachments/assets/326d1d08-8bc0-4833-aa45-21d6e1b4f95e)
+
 ![Ques2](https://github.com/user-attachments/assets/ba51b8da-1378-44d5-98b9-ab0c6a462372)
 
 
@@ -127,8 +130,9 @@ Then go to: http://localhost:8501
 # .env.example
 GOOGLE_API_KEY=your_google_api_key_here
 ```
+---
 
-✅ Example Questions to Try
+## ✅ Example Questions to Try
 - What is the total profit by category?
 
 - Which month had the highest revenue?
@@ -136,8 +140,9 @@ GOOGLE_API_KEY=your_google_api_key_here
 - What’s the average number of orders per region?
 
 - Show top 5 performing products.
+---
 
-🤝 Contributing
+## 🤝 Contributing
 Want to improve the project? Fix bugs? Add features?
 
 1. Fork the repo
@@ -147,6 +152,8 @@ Want to improve the project? Fix bugs? Add features?
 3. Commit changes (git commit -am 'Add feature')
 
 4. Push and open a PR
+
+---
 
 ## 📬 Contact
 
