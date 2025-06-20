@@ -3,3 +3,4 @@ python-dotenv
 langchain
 langchain-experimental
 langchain-google-genai
+pandas
