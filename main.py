@@ -5,10 +5,8 @@ from langchain_google_genai import GoogleGenerativeAI
 import os
 
 def main():
-    # Load the .env file
     load_dotenv()
     
-    # Ensure the API key is available
     api_key = os.getenv("GOOGLE_API_KEY")
     if not api_key:
         st.error("GOOGLE_API_KEY not found. Please set it in a .env file.")
@@ -22,10 +20,8 @@ def main():
     if csv_file is not None:
         user_question = st.text_input("Ask a question about your CSV:")
 
-        # Correct LLM wrapper for Gemini
-        # Changed model from "gemini-pro" to "gemini-1.5-flash" for wider availability
         llm = GoogleGenerativeAI(
-            model="gemini-1.5-flash",  # Using gemini-1.5-flash as it's generally available
+            model="gemini-1.5-flash",
             temperature=0
         )
 
